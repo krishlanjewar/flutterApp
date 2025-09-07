@@ -1,20 +1,43 @@
-<<<<<<< HEAD
-# flutter_application_1
+# Multi-Feature Web App 🚀
 
-A new Flutter project.
+This project is a multi-feature web application built to demonstrate different functionalities in one place.  
+It includes a **Home Page**, **Calculator**, **Stone-Paper-Scissors Game**, **To-Do List**, and **Profile Settings**.
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+## 📌 Features
 
-A few resources to get you started if this is your first Flutter project:
+### 🏠 Home Page
+- Acts as the landing page of the project.
+- Simple and clean UI to navigate across all modules.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+### 🧮 Calculator
+- Perform basic arithmetic operations.
+- User-friendly design with instant results.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
-=======
-# flutterApp
->>>>>>> fd6990f02191a79bbf8ea36093c82c7acde86072
+### ✊🖐✌ Stone-Paper-Scissors Game
+- Classic fun game to play against the computer.
+- Randomized computer choices and live score updates.
+
+### 📝 To-Do List
+- Add, edit, delete, and mark tasks as complete.
+- Stores tasks locally so they are available even after refreshing.
+
+### 👤 Profile Settings
+- Update user profile details.
+- Customize preferences for a personalized experience.
+
+---
+
+## ⚙️ Tech Stack
+- **Frontend:** HTML, CSS, JavaScript (or mention React/Flutter if you used them)
+- **Backend:** (Optional - mention if you used Node.js, Firebase, etc.)
+- **Styling:** TailwindCSS / Bootstrap / Custom CSS
+
+---
+
+## 🚀 Getting Started
+
+### 1. Clone the repository
+```bash
+git clone 
