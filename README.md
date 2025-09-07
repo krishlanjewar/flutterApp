@@ -1,4 +1,4 @@
-# Multi-Feature Web App 🚀
+# Multi-Feature Flutter App 🚀
 
 This project is a multi-feature web application built to demonstrate different functionalities in one place.  
 It includes a **Home Page**, **Calculator**, **Stone-Paper-Scissors Game**, **To-Do List**, and **Profile Settings**.
