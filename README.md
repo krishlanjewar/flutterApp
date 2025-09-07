@@ -1,6 +1,6 @@
 # Multi-Feature Flutter App 🚀
 
-This project is a multi-feature web application built to demonstrate different functionalities in one place.  
+This project is a multi-feature flutter application built to demonstrate different functionalities in one place.  
 It includes a **Home Page**, **Calculator**, **Stone-Paper-Scissors Game**, **To-Do List**, and **Profile Settings**.
 
 ---
@@ -9,6 +9,7 @@ It includes a **Home Page**, **Calculator**, **Stone-Paper-Scissors Game**, **To
 
 ### 🏠 Home Page
 - Acts as the landing page of the project.
+- Day counter 
 - Simple and clean UI to navigate across all modules.
 
 ### 🧮 Calculator
@@ -29,15 +30,8 @@ It includes a **Home Page**, **Calculator**, **Stone-Paper-Scissors Game**, **To
 
 ---
 
-## ⚙️ Tech Stack
-- **Frontend:** HTML, CSS, JavaScript (or mention React/Flutter if you used them)
-- **Backend:** (Optional - mention if you used Node.js, Firebase, etc.)
-- **Styling:** TailwindCSS / Bootstrap / Custom CSS
-
----
-
 ## 🚀 Getting Started
 
 ### 1. Clone the repository
 ```bash
-git clone 
+git clone https://github.com/krishlanjewar/flutterApp.git
