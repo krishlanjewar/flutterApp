@@ -29,11 +29,11 @@ class _ProfileState extends State<Profile> {
       body: Container(
         color: const Color.fromARGB(255, 88, 180, 149),
         child: ListTile(
-          leading: Icon(Icons.calculate_rounded),
-          title: Text("C A L C U L A T E"),
+          leading: Icon(Icons.edit),
+          title: Text("Name "),
           onTap: () {
             Navigator.pop(context);
-            Navigator.pushNamed(context, '/clu');
+            Navigator.pushNamed(context, '/home');
           },
         ),
       ),

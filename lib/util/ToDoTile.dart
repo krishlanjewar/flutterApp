@@ -7,19 +7,24 @@ class Todotile extends StatelessWidget {
 
    Todotile({
     super.key,
-    required this.onChanged,
+    required this.taskName,
     required this.taskCompleted,
-    required this.taskName,    
+    required this.onChanged,
+        
     });
 
   @override
   Widget build(BuildContext context) {
     return Padding(
-      padding: const EdgeInsets.all(25.0),
+      padding: const EdgeInsets.only(left:25.0,right:25.0,top:25.0),
       child: Row(
         children: [
           // check box
-           Checkbox(value:taskCompleted, onChanged: onChanged),
+           Checkbox(
+            value:taskCompleted, 
+            onChanged: onChanged,
+            activeColor: Color.fromARGB(90, 46, 51, 78),
+            ),
 
           // task name
           
@@ -29,8 +34,15 @@ class Todotile extends StatelessWidget {
               color: Color.fromARGB(148, 131, 233, 36),
               borderRadius: BorderRadius.circular(12),
             ),
-            child: Text(taskName),
-          ),
+            child: Text(
+              taskName,
+              style: TextStyle(
+                decoration: taskCompleted
+                ? TextDecoration.lineThrough
+                : TextDecoration.none,
+              ),
+              ),
+              ),
         ],
       ),
     );
